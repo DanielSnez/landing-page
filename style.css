@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header-logo{
+    padding-left: 20px;
+}
+
+.header-links{
+    display:flex;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    gap: 25px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
