@@ -1,22 +1,37 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden;*/ /* Check if it scrolls*/
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 .header{
-    background-color: black;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
+}
+
+.secondary-text{
+    font-size: 20px;
 }
 
 .header-logo{
     padding-left: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
 }
 
 .header-links{
@@ -30,7 +45,7 @@ body {
 
 a{
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 ul{
