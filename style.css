@@ -118,13 +118,13 @@ body {
 
 .call-to-action{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     background-color: #3882F6;
     margin: 50px 80px 50px 80px;
     border-radius: 10px;
     color: #F9FAF8;
-    padding: 30px 80px 30px 80px;
+    padding: 50px 150px 50px 150px;
 }
 
 
@@ -135,6 +135,7 @@ body {
     align-items:flex-start;
     justify-content: center;
     padding: 10px;
+    padding-right: 100px;
 }
 
 .call-to-action .sign-up{
