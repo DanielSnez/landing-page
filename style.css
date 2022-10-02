@@ -106,7 +106,7 @@ body {
     font-style: italic;
     text-align: center;
     font-size: 36px;
-
+    height: auto;
 }
 
 .author{
@@ -209,4 +209,17 @@ ul{
     height: 400px;
     object-fit: cover;
     
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 2px;
+}
+
+.footer .secondary-text{
+    font-size: 15px;
+    font-weight: bold;
 }
